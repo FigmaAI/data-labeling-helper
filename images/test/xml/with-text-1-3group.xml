@@ -1,0 +1,26 @@
+<annotation>
+  <folder>images</folder>
+  <filename>with-text-1-3group.png</filename>
+  <path>/Users/judepark/Sites/ldsg-tf/data/images/test/test/with-text-1-3group.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>414</width>
+    <height>896</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>buttons</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>8</xmin>
+      <ymin>8</ymin>
+      <xmax>155</xmax>
+      <ymax>64</ymax>
+    </bndbox>
+  </object>
+</annotation>

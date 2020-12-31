@@ -1,0 +1,18 @@
+{
+  "name": "xml-generate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "label.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "image-size": "^0.9.3",
+    "install": "^0.13.0",
+    "npm": "^6.14.10",
+    "sharp": "^0.27.0",
+    "xmlbuilder": "^15.1.1"
+  }
+}
