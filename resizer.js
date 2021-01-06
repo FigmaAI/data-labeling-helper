@@ -1,12 +1,13 @@
-const sharp = require("sharp");
+const sizeOf = require("image-size");
 const fs = require("fs");
 const builder = require("xmlbuilder");
 const path = require("path");
-const imageFolder = "./images/train/train/";
-const outputFolder = "./images/train/training/";
-const xmlFolder = "./images/train/xml/";
+const sharp = require("sharp");
+const imageFolder = "./images/sample/train/";
+const outputFolder = "./images/sample/training/";
+const xmlFolder = "./images/sample/xml/";
 
-const createxml = (file, right, bottom) => {
+const createxml = (file, dimensions, x, y, xi, yi) => {
   let absolutePath = path.resolve(imageFolder, file);
   let obj = {
     annotation: {
@@ -26,84 +27,144 @@ const createxml = (file, right, bottom) => {
       },
       size: {
         width: {
-          "#text": 414,
+          "#text": "414",
         },
         height: {
-          "#text": 896,
+          "#text": "896",
         },
         depth: {
-          "#text": "3",
+          "#text": "1",
         },
       },
       segmented: {
         "#text": "0",
       },
-      object: {
-        name: {
-          "#text": "buttons",
-        },
-        pose: {
-          "#text": "Unspecified",
-        },
-        truncated: {
-          "#text": "1",
-        },
-        difficult: {
-          "#text": "0",
-        },
-        bndbox: {
-          xmin: {
-            "#text": "8",
+      object: [
+        {
+          name: {
+            "#text": "Buttons",
           },
-          ymin: {
-            "#text": "8",
+          pose: {
+            "#text": "Unspecified",
           },
-          xmax: {
-            "#text": 414 - right,
+          truncated: {
+            "#text": "1",
           },
-          ymax: {
-            "#text": 896 - bottom,
+          difficult: {
+            "#text": "0",
+          },
+          bndbox: {
+            xmin: {
+              "#text": x,
+            },
+            ymin: {
+              "#text": y,
+            },
+            xmax: {
+              "#text": x + dimensions.width,
+            },
+            ymax: {
+              "#text": y + dimensions.height,
+            },
           },
         },
-      },
+        {
+          name: {
+            "#text": "Status Bar",
+          },
+          pose: {
+            "#text": "Unspecified",
+          },
+          truncated: {
+            "#text": "1",
+          },
+          difficult: {
+            "#text": "0",
+          },
+          bndbox: {
+            xmin: {
+              "#text": "0",
+            },
+            ymin: {
+              "#text": "0",
+            },
+            xmax: {
+              "#text": "414",
+            },
+            ymax: {
+              "#text": "44",
+            },
+          },
+        },
+        {
+          name: {
+            "#text": "Home Indicator",
+          },
+          pose: {
+            "#text": "Unspecified",
+          },
+          truncated: {
+            "#text": "1",
+          },
+          difficult: {
+            "#text": "0",
+          },
+          bndbox: {
+            xmin: {
+              "#text": "0",
+            },
+            ymin: {
+              "#text": "862",
+            },
+            xmax: {
+              "#text": "414",
+            },
+            ymax: {
+              "#text": "896",
+            },
+          },
+        },
+      ],
     },
   };
   let xml = builder.begin().ele(obj).end({ pretty: true });
   let filename = path.parse(file).name;
-  fs.writeFileSync(xmlFolder + filename + ".xml", xml, (err) => {
-    err ? console.log("xml: ", err) : true;
-  });
+  fs.writeFile(
+    xmlFolder + filename + "-" + xi + "-" + yi + ".xml",
+    xml,
+    (err) => {
+      if (err) throw err;
+    }
+  );
 };
 
 fs.readdir(imageFolder, (err, files) => {
+  // On error, show it and return
   err ? console.log("forEach: ", err) : true;
+
   files.forEach((file) => {
-    let image = sharp(imageFolder + file);
+    sizeOf(imageFolder + file, (err, dimensions) => {
+      let xlist = Math.floor((414 - 8 * 2) / dimensions.width);
+      let ylist = Math.floor((896 - 44 - 34) / dimensions.height);
+      for (let xi = 0; xi < xlist; xi++) {
+        let x = 8 + dimensions.width * xi;
 
-    image
-      .metadata()
-      .then((metadata) => {
-        let right = 414 - 8 - metadata.width;
-        let bottom = 896 - 8 - metadata.height;
-        return image
-          .extend({
-            top: 8,
-            left: 8,
-            bottom: bottom,
-            right: right,
-            background: { r: 255, g: 255, b: 255, alpha: 0 },
-          })
-          .toFile(outputFolder + file, (err) => {
-            err ? console.log("tofile: ", err) : true;
-          })
-          .toBuffer()
-          .then(() => {
-            createxml(file, right, bottom);
-          })
-
-      })
-      .catch((err) => {
-        err ? console.log("metadata: ", err) : true;
-      });
+        for (let yi = 0; yi < ylist; yi++) {
+          let y = 44 + dimensions.height * yi;
+          console.log(x, y); 
+          createImage(file, dimensions, x, y, xi, yi);
+        }
+      }
+    });
   });
 });
+
+const createImage = (file, dimensions, x, y, xi, yi) => {
+  let filename = path.parse(file).name;
+
+  sharp("./images/iPhone 11.jpg")
+    .composite([{ input: imageFolder + file, left: x, top: y }])
+    .toFile(outputFolder + filename + "-" + xi + "-" + yi + ".png");
+
+  createxml(file, dimensions, x, y, xi, yi);
+};
