@@ -161,6 +161,7 @@ fs.readdir(imageFolder, (err, files) => {
 
 const createImage = (file, dimensions, x, y, xi, yi) => {
   let filename = path.parse(file).name;
+  console.log(filename);
 
   sharp("./images/iPhone 11.jpg")
     .composite([{ input: imageFolder + file, left: x, top: y }])
