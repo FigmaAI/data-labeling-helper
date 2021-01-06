@@ -2,17 +2,17 @@ const sizeOf = require("image-size");
 const fs = require("fs");
 const builder = require("xmlbuilder");
 const path = require("path");
-const sharp = require("sharp");
-const imageFolder = "./images/sample/train/";
-const outputFolder = "./images/sample/training/";
-const xmlFolder = "./images/sample/xml/";
+// const sharp = require("sharp");
+const imageFolder = "./images/train/train/";
+// const outputFolder = "./images/train/training/";
+const xmlFolder = "./images/train/training/";
 
 const createxml = (file, dimensions, x, y, xi, yi) => {
   let absolutePath = path.resolve(imageFolder, file);
   let obj = {
     annotation: {
       folder: {
-        "#text": "images",
+        "#text": "training",
       },
       filename: {
         "#text": file,
@@ -33,7 +33,7 @@ const createxml = (file, dimensions, x, y, xi, yi) => {
           "#text": "896",
         },
         depth: {
-          "#text": "1",
+          "#text": "3",
         },
       },
       segmented: {
@@ -151,7 +151,6 @@ fs.readdir(imageFolder, (err, files) => {
 
         for (let yi = 0; yi < ylist; yi++) {
           let y = 44 + dimensions.height * yi;
-          console.log(x, y); 
           createImage(file, dimensions, x, y, xi, yi);
         }
       }
@@ -161,10 +160,10 @@ fs.readdir(imageFolder, (err, files) => {
 
 const createImage = (file, dimensions, x, y, xi, yi) => {
   let filename = path.parse(file).name;
-
-  sharp("./images/iPhone 11.jpg")
-    .composite([{ input: imageFolder + file, left: x, top: y }])
-    .toFile(outputFolder + filename + "-" + xi + "-" + yi + ".png");
+  console.log(filename);
+  // sharp("./images/iPhone 11.jpg")
+  //   .composite([{ input: imageFolder + file, left: x, top: y }])
+  //   .toFile(outputFolder + filename + "-" + xi + "-" + yi + ".png");
 
   createxml(file, dimensions, x, y, xi, yi);
 };
