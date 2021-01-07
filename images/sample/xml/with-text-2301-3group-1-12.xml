@@ -1,14 +1,14 @@
 <annotation>
-  <folder>images</folder>
-  <filename>with-text-2301-3group.png</filename>
-  <path>C:\Users\Administrator\Downloads\GitHub\data-labeling-helper\images\sample\train\with-text-2301-3group.png</path>
+  <folder>training</folder>
+  <filename>with-text-2301-3group-1-12.png</filename>
+  <path>./images/sample/training/with-text-2301-3group-1-12.png</path>
   <source>
     <database>Unknown</database>
   </source>
   <size>
     <width>414</width>
     <height>896</height>
-    <depth>1</depth>
+    <depth>3</depth>
   </size>
   <segmented>0</segmented>
   <object>
