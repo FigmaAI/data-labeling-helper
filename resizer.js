@@ -2,20 +2,22 @@ const sizeOf = require("image-size");
 const fs = require("fs");
 const builder = require("xmlbuilder");
 const path = require("path");
-// const sharp = require("sharp");
+const sharp = require("sharp");
 const imageFolder = "./images/train/train/";
-// const outputFolder = "./images/train/training/";
-const xmlFolder = "./images/train/training/";
+const outputFolder = "./images/train/training/";
+const xmlFolder = "./images/train/xml/";
 
-const createxml = (file, dimensions, x, y, xi, yi) => {
-  let absolutePath = path.resolve(imageFolder, file);
+const createxml = (to_file_name, dimensions, x, y, xi, yi) => {
+  let absolutePath = outputFolder + to_file_name + ".png"
+  let dir = path.basename(path.dirname(absolutePath));
+
   let obj = {
     annotation: {
       folder: {
-        "#text": "training",
+        "#text": dir,
       },
       filename: {
-        "#text": file,
+        "#text": to_file_name + ".png",
       },
       path: {
         "#text": absolutePath,
@@ -128,9 +130,8 @@ const createxml = (file, dimensions, x, y, xi, yi) => {
     },
   };
   let xml = builder.begin().ele(obj).end({ pretty: true });
-  let filename = path.parse(file).name;
   fs.writeFile(
-    xmlFolder + filename + "-" + xi + "-" + yi + ".xml",
+    xmlFolder + to_file_name + ".xml",
     xml,
     (err) => {
       if (err) throw err;
@@ -160,10 +161,11 @@ fs.readdir(imageFolder, (err, files) => {
 
 const createImage = (file, dimensions, x, y, xi, yi) => {
   let filename = path.parse(file).name;
+  let to_file_name = filename + "-" + xi + "-" + yi;
   console.log(filename);
-  // sharp("./images/iPhone 11.jpg")
-  //   .composite([{ input: imageFolder + file, left: x, top: y }])
-  //   .toFile(outputFolder + filename + "-" + xi + "-" + yi + ".png");
+  sharp("./images/iPhone 11.jpg")
+    .composite([{ input: imageFolder + file, left: x, top: y }])
+    .toFile(outputFolder + to_file_name + ".png");
 
-  createxml(file, dimensions, x, y, xi, yi);
+  createxml(to_file_name, dimensions, x, y, xi, yi);
 };
