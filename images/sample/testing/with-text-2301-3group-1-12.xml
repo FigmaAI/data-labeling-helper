@@ -1,0 +1,50 @@
+<annotation>
+  <folder>testing</folder>
+  <filename>with-text-2301-3group-1-12.png</filename>
+  <path>./images/sample/testing/with-text-2301-3group-1-12.png</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>414</width>
+    <height>896</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Buttons</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>131</xmin>
+      <ymin>716</ymin>
+      <xmax>254</xmax>
+      <ymax>772</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Status Bar</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>414</xmax>
+      <ymax>44</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Home Indicator</name>
+    <pose>Unspecified</pose>
+    <truncated>1</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>0</xmin>
+      <ymin>862</ymin>
+      <xmax>414</xmax>
+      <ymax>896</ymax>
+    </bndbox>
+  </object>
+</annotation>
