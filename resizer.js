@@ -3,9 +3,9 @@ const fs = require("fs");
 const builder = require("xmlbuilder");
 const path = require("path");
 const sharp = require("sharp");
-const imageFolder = "./images/sample/train/";
-const outputFolder = "./images/sample/training/";
-const xmlFolder = "./images/sample/training/";
+const imageFolder = "./images/sample/test/";
+const outputFolder = "./images/sample/testing/";
+const xmlFolder = "./images/sample/testing/";
 
 const createxml = (to_file_name, dimensions, x, y, xi, yi) => {
   let absolutePath = outputFolder + to_file_name + ".png"
