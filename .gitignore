@@ -6,3 +6,6 @@ images/test
 images/train
 node_modules
 .DS_Store
+iconBlack
+iconWhite
+reflect-buttons

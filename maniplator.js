@@ -5,12 +5,12 @@ const fs = require("fs");
 const builder = require("xmlbuilder");
 const path = require("path");
 const sharp = require("sharp");
-const imageFolder = "./images/sample/test/";
+const imageFolder = "./images/sample/iconWhite/";
 const outputFolder = "./images/sample/testing/";
 const xmlFolder = "./images/sample/testing/";
 
 const createxml = (to_file_name, dimensions, x, y) => {
-  let absolutePath = outputFolder + to_file_name + ".png";
+  let absolutePath = outputFolder + to_file_name + "-dark.png";
   let dir = path.basename(path.dirname(absolutePath));
 
   let obj = {
@@ -19,7 +19,7 @@ const createxml = (to_file_name, dimensions, x, y) => {
         "#text": dir,
       },
       filename: {
-        "#text": to_file_name + ".png",
+        "#text": to_file_name + "-dark.png",
       },
       path: {
         "#text": absolutePath,
@@ -46,7 +46,7 @@ const createxml = (to_file_name, dimensions, x, y) => {
       object: [
         {
           name: {
-            "#text": "Buttons",
+            "#text": "Icons",
           },
           pose: {
             "#text": "Unspecified",
@@ -132,7 +132,7 @@ const createxml = (to_file_name, dimensions, x, y) => {
     },
   };
   let xml = builder.begin().ele(obj).end({ pretty: true });
-  fs.writeFile(xmlFolder + to_file_name + ".xml", xml, (err) => {
+  fs.writeFile(xmlFolder + to_file_name + "-dark.xml", xml, (err) => {
     if (err) throw err;
   });
 };
@@ -166,9 +166,9 @@ const createImage = (file, dimensions, x, y) => {
   let filename = path.parse(file).name;
   
   console.log(filename);
-  sharp("./images/iPhone 11.jpg")
+  sharp("./images/iPhone 11-dark.jpg")
     .composite([{ input: imageFolder + file, left: x, top: y }])
-    .toFile(outputFolder + filename + ".png");
+    .toFile(outputFolder + filename + "-dark.png");
 
   createxml(filename, dimensions, x, y);
 };
