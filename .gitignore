@@ -4,6 +4,7 @@ models
 workspace
 images/test
 images/train
+images/sample
 node_modules
 .DS_Store
 iconBlack
