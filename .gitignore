@@ -1,12 +1,3 @@
-buttons
-mobbin
-models
-workspace
-images/test
-images/train
-images/sample
+images
 node_modules
 .DS_Store
-iconBlack
-iconWhite
-reflect-buttons
