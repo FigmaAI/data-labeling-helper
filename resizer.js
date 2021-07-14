@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const imageFolder = "./images/RICO/jpg/";
-const outputFolder = "./images/RICO/output/";
+const imageFolder = "./images/origin/img/";
+const outputFolder = "./images/resize/img/";
 
 fs.readdir(imageFolder, (err, files) => {
   // On error, show it and return
