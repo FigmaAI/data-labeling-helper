@@ -4,7 +4,7 @@ const xml2js = require("xml2js");
 
 const imageFolder = "./images/origin/mobbin/";
 const outputFolder = "./images/origin/img/";
-const xmlFolder = "./images/origin/1092_final_xml/";
+const xmlFolder = "./images/origin/xml/";
 
 fs.readdir(xmlFolder, (err, files) => {
   // On error, show it and return
