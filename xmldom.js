@@ -3,7 +3,7 @@ const path = require("path");
 const xml2js = require("xml2js");
 const builder = require("xmlbuilder");
 
-const xmlFolder = "./images/origin/xml/";
+const xmlFolder = "./images/origin/selectstar/";
 const outputFolder = "./images/resize/xml/";
 
 fs.readdir(xmlFolder, (err, files) => {
@@ -31,7 +31,7 @@ const create_xml = (obj) => {
   let height = obj.annotation.size[0].height;
   let width = obj.annotation.size[0].width;
 
-  // 크기를 새로 640으로 조정
+  // 크기를 세로 640으로 조정
   obj.annotation.size[0].width = Math.round((640 * width) / height);
   obj.annotation.size[0].height = 640;
 
