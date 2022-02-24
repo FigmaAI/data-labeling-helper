@@ -3,8 +3,8 @@ const path = require("path");
 const xml2js = require("xml2js");
 const builder = require("xmlbuilder");
 
-const xmlFolder = "./assets_20220221233655/xml/";
-const outputFolder = "./assets_20220221233655/valid-xml/";
+const xmlFolder = "./assets_20220221233655/origin/";
+const outputFolder = "./assets_20220221233655/xml/";
 
 fs.readdir(xmlFolder, (err, files) => {
   // On error, show it and return

@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const sharp = require("sharp");
-const imageFolder = "./images/origin/img/";
-const outputFolder = "./images/resize/img/";
+const imageFolder = "./fluentIcons/combined/";
+const outputFolder = "./fluentIcons/background/";
 
 fs.readdir(imageFolder, (err, files) => {
   // On error, show it and return
