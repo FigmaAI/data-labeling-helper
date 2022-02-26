@@ -2,9 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const xml2js = require("xml2js");
 
-const imageFolder = "./images/origin/mobbin/";
-const outputFolder = "./images/origin/img/";
-const xmlFolder = "./images/origin/selectstar/";
+const imageFolder = "./images/train/jpg/";
+const outputFolder = "./images/train/img/";
+const xmlFolder = "./images/train/xml/";
 
 fs.readdir(xmlFolder, (err, files) => {
   // On error, show it and return
