@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "exceljs": "^4.3.0",
     "image-size": "0.9.1",
     "install": "^0.13.0",
     "npm": "^6.14.10",

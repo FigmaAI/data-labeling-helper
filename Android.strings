@@ -1,0 +1,540 @@
+// MARK: - alert
+"alert.consume.mobile.network" = "Wi-Fi 환경이 아닌 경우,\n 데이터 사용료가 발생할 수 있습니다.";
+"alert.message.timer.cancel" = "타이머를 종료하시겠습니까?";
+"alert.message.update.app.scheme" = "해당 기능은 업데이트 이후 사용 가능합니다.";
+"alert.need.changing.mobile.available.settings" = "통신사 데이터망에서는\n사용하지 않도록 설정돼있습니다.";
+"alert.pending.status.time.machine" = "라이브 송출이 종료되었습니다. 해당 페이지를 벗어나면, 본 라이브를 시청할 수 없으니 유의하시기 바랍니다.";
+
+// MARK: - allow
+"allow.notify" = "알림받기";
+
+// MARK: - app
+"app.name" = "NOW";
+
+// MARK: - auto
+"auto.play.notify" = "미리보기 재생중";
+
+// MARK: - beforehour
+"beforehour.plurals.other" = "％n시간 전";
+
+// MARK: - beforeminute
+"beforeminute.plurals.other" = "％n분 전";
+
+// MARK: - bottom
+"bottom.sheet.delete" = "삭제";
+"bottom.sheet.info" = "라이브 정보";
+"bottom.sheet.music.album" = "앨범 정보";
+"bottom.sheet.music.similar" = "비슷한 노래 보기";
+"bottom.sheet.music.song" = "노래/가사 정보";
+"bottom.sheet.play.continually" = "추천영상 자동재생";
+"bottom.sheet.player.stop.timer.finished" = "종료";
+"bottom.sheet.player.stop.timer.hour1" = "1시간";
+"bottom.sheet.player.stop.timer.hour2" = "2시간";
+"bottom.sheet.player.stop.timer.hour3" = "3시간";
+"bottom.sheet.player.stop.timer.hour4" = "4시간";
+"bottom.sheet.player.stop.timer.hour5" = "5시간";
+"bottom.sheet.player.stop.timer.hour6" = "6시간";
+"bottom.sheet.player.stop.timer.min15" = "15분";
+"bottom.sheet.player.stop.timer.min30" = "30분";
+"bottom.sheet.player.stop.timer.min45" = "45분";
+"bottom.sheet.player.stop.timer.min5" = "5분";
+"bottom.sheet.player.stop.timer.none" = "사용안함";
+"bottom.sheet.player.stop.timer.notification" = "%@ 남음";
+"bottom.sheet.player.stop.timer.sec5" = "5초 테스트용 차후 제거";
+"bottom.sheet.report" = "신고";
+"bottom.sheet.resolution" = "해상도 설정";
+"bottom.sheet.resolution.auto" = "Auto";
+"bottom.sheet.resolution.description" = "영상의 해상도를 설정해주세요.";
+"bottom.sheet.scale" = "영상의 화면비율을 설정해주세요.";
+"bottom.sheet.speed" = "영상의 속도를 설정해주세요.";
+"bottom.sheet.text" = "영상의 자막을 설정해주세요.";
+"bottom.sheet.timer" = "종료시간 설정";
+"bottom.sheet.timer.description" = "플레이어를 자동 종료할 시간을 설정해주세요.";
+"bottom.sheet.timer.finished" = "플레이어를 자동 종료합니다.";
+
+// MARK: - button
+"button.verify" = "인증 하기";
+
+// MARK: - cancel
+"cancel.notify.fail.message" = "서버 오류로 인해 알림받기 해제를 실패하였습니다.";
+"cancel.notify.message" = "알림받기가 해제되었어요.\n쇼 팔로우도 함께 취소되었습니다.";
+
+// MARK: - cast
+"cast.cant.be.cast" = "캐스팅할 수 없는 동영상입니다.";
+"cast.connected.fail" = "연결 도중 오류가 발생했습니다.";
+"cast.connected.success" = "연결이 완료되었습니다.";
+"cast.connecting.device" = "크롬캐스트 연결 중";
+"cast.playing.on" = "%@에서 재생 중";
+
+// MARK: - channel
+"channel.clip.title.popular" = "많이 조회된 동영상";
+"channel.clip.title.recent" = "최신 동영상";
+"channel.detail.info" = "상세";
+"channel.detail.info.clip.count" = "동영상 수";
+"channel.detail.info.created.time" = "채널 개설일";
+"channel.detail.info.follower" = "팔로워";
+"channel.detail.info.like.count" = "전체 좋아요";
+"channel.detail.info.play.count" = "전체 조회수";
+"channel.detail.info.playlist.count" = "재생목록 수";
+"channel.follow.message" = "팔로우가 추가되었습니다.";
+"channel.follow.tooltip.message" = "팔로우하고 업데이트 알림을 놓치지 마세요!";
+"channel.home.tab.home" = "홈";
+"channel.home.tab.playlist" = "재생목록";
+"channel.home.tab.video" = "영상";
+"channel.playlist.all" = "전체보기";
+"channel.playlist.empty" = "등록된 재생목록이 없습니다.";
+"channel.playlist.play.all" = "전체재생";
+"channel.videos.empty" = "등록된 영상이 없습니다.";
+
+// MARK: - chat
+"chat.block" = "컨텐츠 제공자의 요청으로 채팅을 할 수 없습니다.";
+"chat.block.hint" = "채팅이 제한된 라이브입니다.";
+"chat.fail.write.limit" = "컨텐츠내에서 제한된 개수의 글을 등록하여\n더 이상 등록할 수 없습니다.";
+"chat.hint" = "채팅에 참여해보세요";
+"chat.max.count.msg" = "메시지는 최대 %@자까지 입력 가능합니다";
+"chat.report.choose.option" = "사유선택";
+"chat.report.contents" = "내용";
+"chat.report.etc" = "아래 사유는 추가 정보 입력이 필요합니다.\n사유를 클릭하여 안내에 따라 별도의 접수를 진행해주세요.";
+"chat.report.etc.detail1" = "게시물로 인해 명예훼손, 저작권/사생활/초상권 침해, 개인정보노출 등으로 피해를 입은 경우 게시중단서비스로 접수해주세요.";
+"chat.report.etc.detail1.highlight" = "게시중단서비스";
+"chat.report.etc.detail2" = "불법촬영물등에 대한 신고 및 삭제요청은 전기통신사업법 시행령에 따라 상세 사유, 개인정보 수집 및 이용 동의 등이 필요합니다. 불법촬영물등 신고 접수에서 신고해주세요.";
+"chat.report.etc.detail2.highlight" = "불법촬영물등 신고 접수";
+"chat.report.etc.has.no.option" = "사유를 클릭하여 안내에 따라 별도의 접수를 진행해주세요.";
+"chat.report.etc.option1" = "명예훼손/사생활침해 게시물입니다.";
+"chat.report.etc.option2" = "불법촬영물 등이 포함되어 있습니다.";
+"chat.report.fail" = "신고 접수에 실패했습니다.";
+"chat.report.success" = "신고가 정상적으로 접수되었습니다.";
+"chat.report.writer" = "작성자";
+"chat.send" = "보내기";
+
+// MARK: - clean
+"clean.bot" = "클린봇";
+"clean.bot.activated.content" = "욕설 뿐 아니라 모욕적인 표현이 담긴 댓글까지 AI 기술로 감지하여 자동으로 숨겨줍니다.";
+"clean.bot.activated.title" = "클린봇 활성화";
+"clean.bot.banned.content" = "내용을 다시 점검 후에 시도해주세요.";
+"clean.bot.banned.highlight" = "부적절한 표현이 감지";
+"clean.bot.banned.reason" = "A.I 클린봇 탐지결과 부적절한 표현이 포함되어 있는 것으로 판단됩니다.";
+"clean.bot.banned.title" = "부적절한 표현이 감지되어 댓글을 등록할 수 없습니다.";
+"clean.bot.deactivated.content" = "모든 댓글을 제한없이 노출하며 악성댓글도 포함될 수 있습니다.";
+"clean.bot.deactivated.title" = "클린봇 비활성화";
+"clean.bot.filtered" = "클린봇이 이용자 보호를 위해 숨긴 댓글입니다.";
+"clean.bot.setting" = "클린봇 설정하기";
+"clean.bot.setting.activated" = "클린봇이 악성댓글을 감지합니다.";
+"clean.bot.setting.deactivated" = "클린봇으로 착한 댓글만 모아보세요!";
+"clean.bot.warning.content" = "반복 등록시 이용이 제한될 수 있습니다.";
+"clean.bot.warning.highlight" = "상처 되는 표현";
+"clean.bot.warning.reason" = "클린봇 탐지결과 부적절한 표현이 포함되어 있을 확률이 높게 나타납니다.";
+"clean.bot.warning.title" = "상처 되는 표현이 포함되어 있지 않나요?";
+
+// MARK: - comment
+"comment.bottom.sheet.title" = "댓글 %@";
+"comment.deleted" = "댓글이 삭제되었습니다.";
+"comment.empty" = "등록된 댓글이 없습니다.";
+"comment.send" = "보내기";
+"comment.sort.all" = "전체";
+"comment.sort.best" = "베스트";
+"comment.write.deleted" = "삭제된 댓글에는 답글을 작성할 수 없습니다.";
+"comment.write.hint" = "댓글을 남겨보세요";
+"comment.write.placeholder.hint" = "주제에 무관한 글은 삭제될 수 있습니다.";
+
+// MARK: - common
+"common.adult.video.text" = "19세 이상";
+"common.all.delete" = "전체 삭제";
+"common.all.view" = "전체보기";
+"common.cancel.like" = "좋아요 취소";
+"common.change.setting" = "설정 변경";
+"common.close" = "닫기";
+"common.comment" = "댓글";
+"common.data.load.error.desc" = "네트워크 연결 상태를 확인하고\n다시 시도해 주세요!";
+"common.data.load.error.title" = "데이터를 불러오지 못했습니다";
+"common.data.load.error.toast" = "데이터를 불러오지 못했습니다.";
+"common.delete" = "삭제";
+"common.detail.info" = "상세 정보";
+"common.empty.comment" = "등록된 댓글이 없습니다.";
+"common.follow" = "팔로우";
+"common.follow.toast" = "팔로우를 취소하였습니다.";
+"common.following" = "팔로잉";
+"common.following.toast" = "팔로우 하였습니다.";
+"common.less" = "간단히보기";
+"common.like" = "좋아요";
+"common.login" = "로그인";
+"common.more" = "더보기";
+"common.negative" = "취소";
+"common.network.error" = "네트워크에 접속할 수 없습니다.\n네트워크 연결 상태를 확인 후, 다시 시도해 주세요.";
+"common.network.error.desc" = "네트워크 연결 상태를 확인하고\n다시 시도해 주세요.";
+"common.network.error.title" = "네트워크 상태가 원활하지 않습니다.";
+"common.no" = "아니오";
+"common.positive" = "확인";
+"common.register" = "등록";
+"common.reply" = "답글";
+"common.report" = "신고";
+"common.server.error" = "서버에 접속할 수 없습니다.\n잠시 후에 다시 시도해 주세요.";
+"common.setting" = "설정";
+"common.share" = "공유";
+"common.temporary.error.desc" = "잠시 후 다시 시도해 주세요!";
+"common.temporary.error.title" = "일시적인 오류가 발생하였습니다";
+"common.temporary.error.toast" = "일시적인 오류가 발생하였습니다.";
+"common.toast.cancel.like" = "좋아요를 취소했습니다.";
+"common.toast.fail.like" = "좋아요에 실패하였습니다.";
+"common.toast.like" = "좋아요를 했습니다.";
+"common.try.again" = "다시 시도";
+"common.unsubscribe.dialog.message" = "팔로우를 취소하시겠습니까?";
+"common.yes" = "예";
+
+// MARK: - count
+"count.shorten.unit.hundred.million" = "억";
+"count.shorten.unit.ten.thousand" = "만";
+
+// MARK: - d
+"d.day" = "day";
+"d.day.prefix" = "D-%@";
+
+// MARK: - date
+"date.am" = "오전";
+"date.day" = "낮";
+"date.night" = "밤";
+"date.pm" = "오후";
+"date.today" = "오늘";
+
+// MARK: - dialog
+"dialog.disconnect.cast.button" = "연결 해제";
+"dialog.disconnect.cast.message" = "연결을 해제하시겠습니까?";
+"dialog.live.end.cast.selected.title" = "연결할 기기를 선택하세요.";
+"dialog.report.title" = "신고하기";
+
+// MARK: - episode
+"episode.broadcast.day" = "%@ 방송";
+"episode.member.with" = "with.";
+
+// MARK: - error
+"error.message.comment" = "본인 인증 후 가능합니다. 네이버 회원정보에서 본인 인증이 가능합니다.";
+"error.message.network" = "네트워크 상태가 원활하지 않습니다.";
+"error.message.server" = "일시적인 오류가 발생했습니다.";
+"error.mobile.data.small" = "데이터 사용제한";
+"error.not.adult.small" = "19세 이상 시청";
+"error.not.country" = "동영상을 올린 사용자가 해당 국가에서 볼 수 없도록 설정했습니다.";
+"error.not.country.available" = "해당 국가에서는 재생할 수 없습니다.";
+"error.not.country.small" = "재생 제한 국가";
+"error.not.login" = "19세 미만 청소년은 감상할 수 없습니다.\n로그인 후 이용 가능합니다.";
+"error.not.patron.small" = "후원 후 시청";
+"error.not.safe" = "19세 미만 청소년은 감상할 수 없습니다.\n인증 후 이용 가능합니다.";
+"error.not.subscribed" = "이 동영상은 팔로우한 사용자만 시청할 수 있습니다.\n동영상을 시청하려면 팔로우 해주세요.";
+"error.not.subscribed.small" = "팔로우 후 시청";
+"error.playable.auth.not.patron" = "후원하신 분들만 감상할 수 있습니다.\n후원 결제는 네이버 TV 웹에서 가능합니다.";
+"error.playable.auth.unknown" = "해당 컨텐츠를 시청할 수 없습니다.";
+"error.playable.unknown" = "알 수 없는 에러가 발생했습니다.\n잠시 후 다시 시도해주세요.";
+
+// MARK: - formatted
+"formatted.channel.description" = "%@ %@회";
+
+// MARK: - getting
+"getting.notify" = "알림 받는 중";
+"getting.notify.fail.message" = "서버 오류로 인해 알림받기 등록을 실패하였습니다.";
+"getting.notify.message" = "쇼 팔로우가 되었습니다.\n쇼가 시작되면 알려드릴게요!";
+
+// MARK: - info
+"info.empty" = "등록된 내용이 없습니다.";
+
+// MARK: - live
+"live.booked.popup" = "라이브 예정";
+"live.closed" = "라이브가 종료되었습니다.";
+"live.closed.desc" = "라이브가 종료되었습니다.";
+"live.date.pattern.over.30" = "MM월 dd일 a hh:mm";
+"live.date.pattern.under.0" = "00:00:00";
+"live.date.pattern.under.30" = "00:mm:ss";
+"live.ended.popup" = "라이브 종료";
+"live.episode.seq" = "%@회";
+"live.error.check" = "잠시만 기다려주세요.";
+"live.error.status.check" = "라이브 상태를 확인하고 있습니다.";
+"live.plays.count" = "%@명 시청";
+"live.prepare.pip" = "라이브 예정";
+"live.prepare.prepare" = "라이브 진행 예정";
+"live.prepare.ready" = "라이브 준비 중";
+"live.prepare.soon" = "라이브가 곧 시작됩니다!";
+
+// MARK: - login
+"login.dialog.content" = "로그인 하신 후 이용이 가능합니다.";
+
+// MARK: - message
+"message.alert.dialog.adult" = "해당 영상은 19세 이상 이용이 가능합니다.";
+
+// MARK: - more
+"more.menu.finish.time" = "종료 시간 설정";
+"more.menu.live.info" = "라이브 정보";
+"more.menu.vod.info" = "영상 정보";
+
+// MARK: - my
+"my.email.format" = "%@@naver.com";
+"my.following.empty.emoji" = "\uD83D\uDC40";
+"my.following.empty.message" = "내가 팔로우 한 쇼와 채널의 영상을\n이곳에서 볼 수 있어요!";
+"my.following.empty.title" = "팔로우 중인 쇼&채널에\n등록된 영상이 없습니다";
+"my.following.followed" = "팔로우가 추가되었습니다.";
+"my.following.followed.setting" = "알림 설정";
+"my.following.none.do.follow" = "팔로우";
+"my.following.none.emoji" = "\uD83D\uDE04";
+"my.following.none.following" = "팔로잉";
+"my.following.none.message" = "관심있는 채널을 팔로우하면,\n이곳에서 최신 영상을 확인하실 수 있어요!";
+"my.following.none.title" = "환영합니다";
+"my.go.to.hot.clip" = "인기 클립 보러가기";
+"my.header.like.sub.delete.all" = "전체삭제";
+"my.header.title" = "동영상";
+"my.like.empty.emoji" = "\uD83D\uDC94";
+"my.like.empty.message" = "내가 좋아요한 영상을\n이곳에서 확인하실 수 있어요!";
+"my.like.empty.title" = "좋아요 한 동영상이 없습니다";
+"my.like.switch.fail" = "좋아요 상태 변경에 실패했습니다.";
+"my.log.in.with.naver" = "네이버로 로그인하기";
+"my.more.menu.cancel.like" = "좋아요 취소";
+"my.more.menu.delete.recent.clip" = "최근 본 동영상에서 삭제";
+"my.more.menu.like" = "좋아요";
+"my.not.logged.in" = "로그인이 필요해요!";
+"my.not.logged.in.emoji" = "\uD83D\uDC7B";
+"my.over.max.clip.count" = "999+";
+"my.pop.up.delete.recent.clip.all" = "최근 본 동영상을 모두 삭제하시겠습니까?";
+"my.pop.up.delete.recent.clip.all.yes" = "삭제";
+"my.recent.empty.emoji" = "\uD83D\uDC40";
+"my.recent.empty.message" = "내가 시청했었던 영상을\n이곳에서 이어볼 수 있어요!";
+"my.recent.empty.title" = "최근 본 동영상이 없습니다";
+"my.tab.following" = "팔로잉";
+"my.tab.like" = "좋아요";
+"my.tab.recent" = "최근";
+
+// MARK: - next
+"next.vod.play" = "지금 재생하기";
+
+// MARK: - notification
+"notification.bottom.sheet.comment.off.menu" = "댓글 알림 끔";
+"notification.bottom.sheet.delete.menu" = "이 알림 삭제";
+"notification.bottom.sheet.following.off.menu" = "이 채널&amp;쇼의 팔로잉 알림 끔";
+"notification.bottom.sheet.menu.toast" = "알림 받기 설정이 해제되었습니다.";
+"notification.empty" = "새로운 알림이 없습니다";
+"notification.empty.emoji" = "\uD83D\uDD14";
+"notification.empty.recommend" = "채널 또는 쇼를 팔로우하거나\n관심있는 동영상에 댓글을 남겨보세요";
+"notification.new.channel.clips" = "%@의 새 동영상";
+"notification.off.channel.button" = "이 채널 알림 끔";
+"notification.off.channel.toast" = "채널 알림 끔";
+"notification.off.follow" = "팔로우 취소";
+"notification.original.show.home.page" = "쇼 홈페이지";
+"notification.original.show.list" = "쇼 목록";
+"notification.play.button" = "동영상 보기";
+"notification.play.later.button" = "나중에 보기";
+"notification.play.list.button" = "알림 확인";
+"notification.push.channel.multi" = "%@ 외 %@개의 채널이 업데이트 되었습니다.";
+"notification.push.channel.single" = "%@의 새로운 영상 : %@";
+"notification.push.comment.multi" = "%@명의 사용자가 댓글을 남겼습니다.";
+"notification.push.comment.single" = "%@ 님이 댓글을 남겼습니다.";
+"notification.push.live" = "%@의 라이브 방송이 시작됩니다.";
+"notification.push.now.show" = "%@의 NOW 오리지널 쇼 방송이 시작됩니다.";
+"notification.push.reply.multi" = "%@명의 사용자가 답글을 남겼습니다.";
+"notification.push.reply.single" = "%@ 님이 답글을 남겼습니다.";
+"notification.push.sym.multi" = "%@명의 사용자가 공감을 표현했습니다.";
+"notification.push.sym.single" = "%@ 님이 공감을 표현했습니다.";
+"notification.setting.button" = "알림 설정";
+"notification.title" = "알림";
+"notification.type.comments" = "댓글/답글/공감 알림";
+"notification.type.grop" = "그룹 알림";
+"notification.type.olive.live" = "구독 라이브 알림";
+"notification.type.single" = "개별 알림";
+
+// MARK: - ntv
+"ntv.vod.title.recommend" = "추천 영상";
+
+// MARK: - onair
+"onair.badge.live" = "실시간";
+"onair.badge.rerun" = "재방송";
+
+// MARK: - open
+"open.web.link.failed" = "웹 링크 실행에 실패했습니다.";
+
+// MARK: - original
+"original.episode.ranking" = "주간 인기쇼\nTOP 10\uD83D\uDD25";
+"original.episode.replay" = "지난 에피소드 다시보기";
+
+// MARK: - playlist
+"playlist.continually" = "연속재생";
+"playlist.continually.one" = "1개반복";
+"playlist.total" = "/ %@";
+
+// MARK: - prefs
+"prefs.alram" = "알림";
+"prefs.alram.title" = "알림 설정";
+"prefs.auto.play" = "동영상 자동 재생";
+"prefs.background.audio.mode" = "백그라운드 오디오 모드";
+"prefs.background.audio.mode.summary" = "NOW 오리지널 라이브에만 적용 가능합니다";
+"prefs.channels.notice.setting" = "채널별 알림";
+"prefs.comment" = "댓글";
+"prefs.consent.to.ad" = "광고성 정보 수신 동의";
+"prefs.debug.setting.debug.autoplay.off" = "AP debug 끄기";
+"prefs.debug.setting.debug.autoplay.on" = "AP debug 켜기";
+"prefs.debug.setting.intro.off" = "Intro 끄기";
+"prefs.debug.setting.intro.on" = "Intro 켜기";
+"prefs.debug.setting.mune" = "개발자 메뉴";
+"prefs.debug.setting.pre.ad.off" = "전광고 끄기";
+"prefs.debug.setting.pre.ad.on" = "전광고 켜기";
+"prefs.etiquette.end.time" = "종료 시간";
+"prefs.etiquette.on.summary" = "%s ~ %s";
+"prefs.etiquette.start.time" = "시작 시간";
+"prefs.etiquette.time" = "에티켓 시간";
+"prefs.etiquette.time.setting.summary" = "설정한 시간 동안 푸시 알림을 받지 않습니다";
+"prefs.etiquette.time.setting.title" = "시간대 설정";
+"prefs.etiquette.title" = "@string/prefs_etiquette_time";
+"prefs.event.info" = "이벤트 정보";
+"prefs.failure.logout" = "로그아웃에 실패하였습니다.\n잠시 후 다시 시도해주세요.";
+"prefs.failure.unregister.logout" = "로그아웃에 실패했습니다.\n네트워크 상태 확인 후 다시 시도해주세요.";
+"prefs.following.channel.manager" = "팔로잉 쇼&채널";
+"prefs.following.channel.manager.empty" = "팔로잉하는 쇼&채널이 없습니다";
+"prefs.following.channel.manager.title" = "팔로잉 쇼&채널";
+"prefs.help.desk" = "도움말";
+"prefs.login" = "로그인";
+"prefs.logout" = "로그아웃";
+"prefs.new.version" = "최신 버전";
+"prefs.newest.version" = "최신 버전";
+"prefs.notice.comment" = "댓글 알림";
+"prefs.notice.comment.title" = "댓글";
+"prefs.notice.comment.title.setting" = "운영 중인 채널 댓글 알림";
+"prefs.notice.live.of.follow" = "팔로우 채널의 라이브 시작";
+"prefs.notification.interval.instantly" = "즉시 알림";
+"prefs.notification.interval.once.a.hour" = "매시간마다 1회";
+"prefs.notification.interval.twice.a.day" = "모아서 하루 2회";
+"prefs.now.show.info" = "NOW 오리지널 쇼 정보";
+"prefs.off" = "끔";
+"prefs.on" = "켬";
+"prefs.play.mobile.network" = "모바일 데이터 사용";
+"prefs.play.mobile.network.summary" = "동영상이 재생될 때 모바일 데이터를 사용합니다";
+"prefs.player.category" = "플레이어";
+"prefs.privacy" = "개인정보 처리 방침";
+"prefs.program.update.button" = "최신 버전 업데이트";
+"prefs.program.update.open.license" = "오픈소스 라이선스";
+"prefs.program.update.other.app.view" = "어플리케이션 전체보기";
+"prefs.program.update.title" = "버전 정보";
+"prefs.program.update.vertion" = "현재 버전 %@";
+"prefs.question" = "문의 및 신고";
+"prefs.recommand.continuous.playing" = "추천 목록 연속 재생";
+"prefs.recommand.continuous.playing.summary" = "동영상이 끝나면 다음 동영상이 자동으로 재생됩니다";
+"prefs.software.info" = "프로그램 정보";
+"prefs.sync.error.toast" = "알림 설정 정보를 서버로부터  받아오지 못했습니다.";
+"prefs.title" = "설정";
+"prefs.update" = "버전 정보";
+"prefs.update.following.channel" = "팔로잉 채널의 업데이트";
+"prefs.used.off" = "사용 안 함";
+"prefs.video.updated.notice" = "영상 업데이트 알림";
+
+// MARK: - register
+"register.date.an.hour" = "1시간 전";
+"register.date.day" = "%@일 전";
+"register.date.hour" = "%@시간 전";
+"register.date.minute" = "%@분 전";
+"register.date.month" = "%@개월 전";
+"register.date.now" = "방금 전";
+"register.date.week" = "%@주 전";
+"register.date.year" = "%@년 전";
+
+// MARK: - reply
+"reply.write.hint" = "답글을 남겨보세요";
+
+// MARK: - report
+"report.alert.empty.reason" = "신고 이유를 입력해주세요.";
+"report.delete.request" = "게시물로 인해 개인(단체)이 명예훼손, 저작권 침해, 기타, 권리 침해(사생활, 초상권 등) 피해를 입은 경우, \'게시중단 요청\' 을 통해 접수해 주시기 바랍니다.";
+"report.delete.request.highlight" = "\'게시중단 요청\'";
+
+// MARK: - schedule
+"schedule.24.hours" = "24시간";
+"schedule.every.week" = "매일";
+"schedule.hour" = "%@시";
+"schedule.minute" = "%@분";
+"schedule.weekdays" = "평일";
+"schedule.weekends" = "주말";
+
+// MARK: - search
+"search.editor.hint" = "동영상, 채널, 라이브 검색하기";
+"search.empty" = "검색 결과가 없습니다.";
+"search.recently" = "최근 검색";
+
+// MARK: - show
+"show.episode.empty" = "등록된 에피소드가 없습니다.";
+"show.episode.special" = "스페셜";
+"show.feed.write.comment" = "입력";
+"show.follow.tooltip.message" = "팔로우하고 라이브쇼를 놓치지 마세요!";
+"show.highlight.empty" = "등록된 하이라이트가 없습니다.";
+"show.home.empty" = "등록된 영상이 없습니다.";
+"show.home.tab.episode" = "에피소드";
+"show.home.tab.highlight" = "하이라이트";
+"show.home.tab.home" = "홈";
+"show.home.tab.timefeed" = "타임피드";
+"show.list.day.fri" = "금";
+"show.list.day.mon" = "월";
+"show.list.day.postfix" = "요일";
+"show.list.day.sat" = "토";
+"show.list.day.sun" = "일";
+"show.list.day.thu" = "목";
+"show.list.day.tue" = "화";
+"show.list.day.wed" = "수";
+"show.list.title" = "오리지널 쇼리스트";
+"show.main.live.message" = "지금 라이브 중입니다.";
+
+// MARK: - sort
+"sort.hits" = "조회순";
+"sort.new" = "최신순";
+"sort.seq" = "회차순";
+
+// MARK: - tab
+"tab.feed" = "이건 어때요";
+"tab.login" = "Login";
+"tab.original" = "오리지널";
+"tab.today" = "홈";
+"tab.topic" = "토픽";
+"tab.tving" = "Tving TV";
+
+// MARK: - today
+"today.title.channel" = "전체 방송관";
+"today.title.clip" = "지금 뜨는 영상";
+"today.title.highlight" = "오리지널 하이라이트\t";
+"today.title.live" = "라이브 진행 중\uD83C\uDFA5";
+"today.title.notable.show" = "UPCOMING NOW";
+"today.title.recently.watched.clip" = "최근 본 영상";
+"today.title.tving" = "시간순삭 정주행";
+"today.title.upcoming.now" = "UPCOMING NOW";
+
+// MARK: - topic
+"topic.reference.manual" = "NOW PICK 토픽 이에요";
+"topic.reference.manual.highlight" = "NOW PICK 토픽";
+"topic.reference.multi" = "비슷한 취향의 유저가 많이 본 토픽이에요";
+"topic.reference.multi.highlight" = "비슷한 취향의 유저가 많이 본 토픽";
+"topic.reference.my" = "%@ 님이 좋아하는 토픽 이에요";
+"topic.reference.my.default" = "당신이 좋아하는 토픽 이에요";
+"topic.reference.my.highlight" = "좋아하는 토픽";
+"topic.reference.single" = "%@ 와(과) 함께 많이 본 토픽 이에요";
+"topic.reference.single.default" = "함께 많이 본 토픽 이에요";
+"topic.reference.single.highlight" = "함께 많이 본 토픽";
+"topic.reference.today" = "오늘 방영 프로그램과 관련된 토픽 이에요";
+"topic.reference.today.highlight" = "오늘 방영 프로그램과 관련된 토픽";
+"topic.reference.top100" = "현재 인기 토픽 이에요";
+"topic.reference.top100.highlight" = "현재 인기 토픽";
+"topic.reference.yesterday" = "어제 방영 프로그램과 관련된 토픽 이에요";
+"topic.reference.yesterday.highlight" = "어제 방영 프로그램과 관련된 토픽";
+
+// MARK: - tving
+"tving.episode.postfix" = "%@회 스트리밍 중";
+"tving.guest.prefix" = "with";
+"tving.on.air" = "ON AIR";
+"tving.schedule" = "%@~%@";
+
+// MARK: - upcoming
+"upcoming.date.pattern" = "%d월 %d일 %s요일 %s";
+"upcoming.date.pattern.today" = "오늘 %s";
+"upcoming.now.performer" = "출연";
+
+// MARK: - vod
+"vod.like.error" = "좋아요 상태 변경에 실패했습니다.";
+"vod.like.liked" = "좋아요 표시한 영상 리스트에 추가되었습니다.";
+"vod.like.unliked" = "좋아요 표시한 영상 리스트에서 제거되었습니다.";
+"vod.report.detail1" = "음란물 또는 과도한 노출,\n노골적인 성적 표현을 묘사하는 영상";
+"vod.report.detail2" = "살해/상해/폭력 등 잔인한 장면을 묘사하거나\n청소년에게 유해하다고 판단되는 영상";
+"vod.report.detail3" = "담배, 술, 암표 등의 홍보, 판매 영상";
+"vod.report.hint" = "신고 이유를 입력해주세요";
+"vod.report.option1" = "성인 음란성 영상";
+"vod.report.option2" = "폭력성 등 청소년에게 부적합한 영상";
+"vod.report.option3" = "불법 제품 판매 및 부적절한 홍보";
+"vod.report.option5" = "기타 이유";
+"vod.timestamp.click.alert.ad" = "광고 종료(or SKIP) 후에 사용할 수 있습니다.";
+"vod.timestamp.click.alert.duration" = "유효한 타임스탬프가 아닙니다.";
+"vod.timestamp.click.alert.finished" = "본 영상 재생 중에만 이용할 수 있습니다.";

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="today_title_upcoming_now" translatable="false">UPCOMING NOW\u23F0</string>
+    <string name="original_episode_replay" translatable="false">지난 에피소드 다시보기</string>
+    <string name="original_episode_ranking" translatable="false">주간 인기쇼\nTOP 10\uD83D\uDD25</string>
+    <string name="allow_notify" translatable="false">알림받기</string>
+    <string name="getting_notify" translatable="false">알림 받는 중</string>
+    <string name="upcoming_now_performer" translatable="false">출연</string>
+
+    <string name="auto_play_notify" translatable="false">미리보기 재생중</string>
+    <string name="comment_deleted" translatable="false">댓글이 삭제되었습니다.</string>
+    <string name="comment_write_deleted" translatable="false">삭제된 댓글에는 답글을 작성할 수 없습니다.</string>
+    <string name="clean_bot_filtered" translatable="false">클린봇이 이용자 보호를 위해 숨긴 댓글입니다.</string>
+
+    <string name="common_yes" translatable="false">예</string>
+    <string name="common_no" translatable="false">아니오</string>
+    <string name="common_network_error_title" translatable="false">네트워크 상태가 원활하지 않습니다.</string>
+    <string name="common_network_error_desc" translatable="false">네트워크 연결 상태를 확인하고\n다시 시도해 주세요.</string>
+    <string name="live_error_check" translatable="false">잠시만 기다려주세요.</string>
+    <string name="live_error_status_check" translatable="false">라이브 상태를 확인하고 있습니다.</string>
+    <string name="bottom_sheet_resolution_auto" translatable="false">Auto</string>
+    <string name="bottom_sheet_timer_finished" translatable="false">플레이어를 자동 종료합니다.</string>
+
+    <string name="show_home_tab_timefeed" translatable="false">타임피드</string>
+    <string name="error_not_adult_small" translatable="false">19세 이상 시청</string>
+    <string name="error_not_country_small" translatable="false">재생 제한 국가</string>
+    <string name="error_not_patron_small" translatable="false">후원 후 시청</string>
+    <string name="error_not_subscribed_small" translatable="false">팔로우 후 시청</string>
+    <string name="error_mobile_data_small" translatable="false">데이터 사용제한</string>
+
+    <string name="dialog_report_title" translatable="false">신고하기</string>
+    <string name="cast_connected_success" translatable="false">연결이 완료되었습니다.</string>
+    <string name="cast_connected_fail" translatable="false">연결 도중 오류가 발생했습니다.</string>
+    <string name="cast_unsupported_message" translatable="false">캐스팅할 수 없는 동영상입니다.</string>
+    <string name="my_like_switch_fail" translatable="false">좋아요 상태 변경에 실패했습니다.</string>
+
+    <string name="prefs_terms" translatable="false">이용약관</string>
+    <string name="prefs_policy" translatable="false">운영정책</string>
+
+    <string name="prefs_debug_setting_pre_ad_on" translatable="false">전광고 켜기</string>
+    <string name="prefs_debug_setting_pre_ad_off" translatable="false">전광고 끄기</string>
+    <string name="prefs_debug_setting_debug_autoplay_on" translatable="false">AP debug 켜기</string>
+    <string name="prefs_debug_setting_debug_autoplay_off" translatable="false">AP debug 끄기</string>
+    <string name="prefs_debug_setting_live_text_on" translatable="false">라이브 자막 on</string>
+    <string name="prefs_debug_setting_live_text_off" translatable="false">라이브 자막 off</string>
+    <string name="prefs_failure_unregister_logout" translatable="false">로그아웃에 실패했습니다.\n네트워크 상태 확인 후 다시 시도해주세요.</string>
+
+    <string name="notification_off_channel_button" translatable="false">이 채널 알림 끔</string>
+    <string name="notification_bottom_sheet_menu_toast" translatable="false">알림 받기 설정이 해제되었습니다.</string>
+    <string name="notification_off_channel_toast" translatable="false">채널 알림 끔</string>
+    <string name="notification_original_show_list" translatable="false">쇼 목록</string>
+    <string name="notification_original_show_home_page" translatable="false">쇼 홈페이지</string>
+    <string name="notification_off_follow" translatable="false">팔로우 취소</string>
+
+    <string name="show_timefeed_empty" translatable="false">등록된 게시물이 없습니다.</string>
+    <string name="channel_info_empty" translatable="false">라이브 정보가 제공되지 않는 채널입니다.</string>
+
+    <string name="getting_notify_message" translatable="false">쇼 팔로우가 되었습니다.\n쇼가 시작되면 알려드릴게요!</string>
+    <string name="getting_notify_fail_message" translatable="false">서버 오류로 인해 알림받기 등록을 실패하였습니다.</string>
+    <string name="cancel_notify_message" translatable="false">알림받기가 해제되었어요.\n쇼 팔로우도 함께 취소되었습니다.</string>
+    <string name="cancel_notify_fail_message" translatable="false">서버 오류로 인해 알림받기 해제를 실패하였습니다.</string>
+
+    <string name="live_prepare_ready" translatable="false">라이브 준비 중</string>
+    <string name="live_closed_desc" translatable="false">라이브가 종료되었습니다.</string>
+    <string name="live_prepare_pip" translatable="false">라이브 예정</string>
+
+    <string name="more_menu_live_info" translatable="false">라이브 정보</string>
+    <string name="more_menu_vod_info" translatable="false">영상 정보</string>
+
+    <string name="alert_pending_status_time_machine" translatable="false">라이브 송출이 종료되었습니다. 해당 페이지를 벗어나면, 본 라이브를 시청할 수 없으니 유의하시기 바랍니다.</string>
+
+    <string name="open_web_link_failed" translatable="false">웹 링크 실행에 실패했습니다.</string>
+
+    <string name="vod_like_liked" translatable="false">좋아요 표시한 영상 리스트에 추가되었습니다.</string>
+    <string name="vod_like_unliked" translatable="false">좋아요 표시한 영상 리스트에서 제거되었습니다.</string>
+    <string name="vod_like_error" translatable="false">좋아요 상태 변경에 실패했습니다.</string>
+
+    <string name="onair_badge_live" translatable="false">실시간</string>
+    <string name="onair_badge_rerun" translatable="false">재방송</string>
+
+    <string name="alert_message_timer_cancel" translatable="false">타이머를 종료하시겠습니까?</string>
+
+    <string name="live_booked_popup" translatable="false">라이브 예정</string>
+    <string name="live_ended_popup" translatable="false">라이브 종료</string>
+    <string name="alert_message_update_app_scheme" translatable="false">해당 기능은 업데이트 이후 사용 가능합니다.</string>
+    <string name="d_day_prefix" translatable="false">D-{0}</string>
+    <string name="d_day" translatable="false">day</string>
+
+    <string name="formatted_channel_description" translatable="false">%1$s %2$s회</string>
+
+    <string name="upcoming_date_pattern_today" translatable="false">오늘 %s</string>
+    <string name="upcoming_date_pattern" translatable="false">%d월 %d일 %s요일 %s</string>
+    <string name="live_date_pattern_over_30" translatable="false">MM월 dd일 a hh:mm</string>
+    <string name="live_date_pattern_under_30" translatable="false">00:mm:ss</string>
+    <string name="live_date_pattern_under_0" translatable="false">00:00:00</string>
+
+    <string name="episode_broadcast_day" translatable="false">{0} 방송</string>
+
+    <string name="vod_timestamp_click_alert_finished" translatable="false">본 영상 재생 중에만 이용할 수 있습니다.</string>
+    <string name="vod_timestamp_click_alert_ad" translatable="false">광고 종료(or SKIP) 후에 사용할 수 있습니다.</string>
+    <string name="vod_timestamp_click_alert_duration" translatable="false">유효한 타임스탬프가 아닙니다.</string>
+
+    <string name="show_main_live_message" translatable="false">지금 라이브 중입니다.</string>
+    <string name="show_episode_special" translatable="false">스페셜</string>
+</resources>
